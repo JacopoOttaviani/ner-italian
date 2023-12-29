@@ -9,7 +9,7 @@ italian_corpus = alpino.words()
 
 # Your Italian text
 italian_text = "Il Presidente della Repubblica Italiana, Sergio Mattarella, ha tenuto un discorso oggi a Roma."
-/Users/jacopo/ner-italian.py
+
 # Tokenize the text into sentences and words
 sentences = sent_tokenize(italian_text)
 tokenized_words = [word_tokenize(sentence) for sentence in sentences]
